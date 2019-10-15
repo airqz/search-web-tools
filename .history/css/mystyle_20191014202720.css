@@ -17,17 +17,12 @@ body {
 	margin: 1rem 0;
 }
 
-.nav > .nav-link {
+.nav-link {
 	color: white;
 }
 
-.nav > .nav-link:hover {
-	color: rgb(49, 172, 255);
-}
-
-.nav-lined > .nav-link {
-	border-radius: 0.25rem;
-	color: black;
+.nav-link:a {
+	color: blue;
 }
 
 #searcharea {

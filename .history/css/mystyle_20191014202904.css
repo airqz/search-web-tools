@@ -25,11 +25,6 @@ body {
 	color: rgb(49, 172, 255);
 }
 
-.nav-lined > .nav-link {
-	border-radius: 0.25rem;
-	color: black;
-}
-
 #searcharea {
 	margin: 0 auto;
 	text-align: center;
