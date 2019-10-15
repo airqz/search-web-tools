@@ -7,9 +7,9 @@ $('#search').keyup(function() {
 			if ((val.name.search(myExp) != -1) ||
 			(val.bio.search(myExp) != -1)) {
 				output += '<li>';
-					output += '<h1>'+ val.shortname +'</h1>';	
-			    		output += '<a href="'+ val.github +'" target="_blank"> Open <i class="fa fa-github"></i> Github</a>';	
-						output += '<p>'+ val.bio +'</p>';	
+					output += '<h1>'+ val.shortname +'</h1>';
+			    		output += '<a href="'+ val.github +'" target="_blank"> Open <i class="fa fa-github"></i> Github</a>';
+						output += '<p>'+ val.bio +'</p>';
 						output += '<h2>'+ val.tech + '</h2>';
 						output += '<strong>'+ val.name + '</strong>';
 						output += '<img width="52px" src="'+ val.image +'" />';
